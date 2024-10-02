@@ -8,7 +8,7 @@ const productRoutes = require("./routes/productRoute");
 const cors = require("cors");
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = 5000;
 connectToMongodb();
 
 //Middleware
